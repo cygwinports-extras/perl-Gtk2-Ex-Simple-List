@@ -1,0 +1,4 @@
+CPAN_AUTHOR=rmcfarla
+inherit perl
+
+SRC_URI="mirror://cpan/authors/id/R/RM/RMCFARLA/Gtk2-Perl-Ex/${ORIG_PN}-${PV}.tar.gz"

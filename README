@@ -1,0 +1,52 @@
+perl-Gtk2-Ex-Simple-List 
+------------------------------------------- 
+SimpleList is a simple interface to the powerful but complex
+Gtk2::TreeView and Gtk2::ListStore combination, implementing using 
+tied arrays to make thing simple and easy.
+
+Runtime requirements:
+  perl-5.10.0-3
+  perl-Gtk2-1.164-1
+
+Canonical homepage:
+  http://search.cpan.org/~rmcfarla/Gtk2-Ex-Simple-List/
+
+Canonical download:
+  http://www.cpan.org/authors/id/R/RM/RMCFARLA/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gtk2-Ex-Simple-List-0.50-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gtk2-Ex-Simple-List-0.50-X.cygport all
+
+This will create:
+  /usr/src/perl-Gtk2-Ex-Simple-List-0.50-X-src.tar.bz2
+  /usr/src/perl-Gtk2-Ex-Simple-List-0.50-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/Gtk2/Ex/Simple/List.pm
+  /usr/lib/perl5/vendor_perl/5.10/Gtk2/Ex/Simple/TiedCommon.pm
+  /usr/lib/perl5/vendor_perl/5.10/Gtk2/Ex/Simple/TiedList.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gtk2/Ex/Simple/List/.packlist
+  /usr/share/man/man3/Gtk2.Ex.Simple.List.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.50-2 -----
+Rebuilt for perl-5.10.
+
+----- version 0.50-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

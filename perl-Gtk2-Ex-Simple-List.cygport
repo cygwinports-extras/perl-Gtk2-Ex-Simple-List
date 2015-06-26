@@ -3,7 +3,7 @@ inherit perl
 
 NAME="perl-Gtk2-Ex-Simple-List"
 VERSION=0.50
-RELEASE=2
+RELEASE=3
 CATEGORY="Perl"
 SUMMARY="Perl module for simple interface to Gtk2-TreeView and Gtk2-ListStore"
 DESCRIPTION="SimpleList is a simple interface to the powerful but complex

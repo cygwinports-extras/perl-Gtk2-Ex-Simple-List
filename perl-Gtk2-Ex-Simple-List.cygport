@@ -1,0 +1,14 @@
+CPAN_AUTHOR=rmcfarla
+inherit perl
+
+NAME="perl-Gtk2-Ex-Simple-List"
+VERSION=0.50
+RELEASE=2
+CATEGORY="Perl"
+SUMMARY="Perl module for simple interface to Gtk2-TreeView and Gtk2-ListStore"
+DESCRIPTION="SimpleList is a simple interface to the powerful but complex
+Gtk2-TreeView and Gtk2-ListStore combination, implementing using
+tied arrays to make thing simple and easy."
+SRC_URI="mirror://cpan/authors/id/R/RM/RMCFARLA/Gtk2-Perl-Ex/${NAME#perl-}-${VERSION}.tar.gz"
+
+ARCH=noarch
